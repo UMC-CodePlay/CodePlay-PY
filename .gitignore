@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
+- env/
 build/
 develop-eggs/
 dist/
@@ -23,6 +23,7 @@ var/
 # Virtual Environment
 venv/
 ENV/
++ !virtual_env.yaml  # virtual_env.yaml 파일은 추적
 
 # Audio Files
 *.mp3
